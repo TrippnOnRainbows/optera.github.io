@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+*{
+    margin:0;
+
+}
+body {
+    background-color: rgb(165, 156, 144);
+    min-height: 100vh;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.optera_box{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 5px 0px 10px 5px #3f3535;
+
+}
+
+li {
+    display:inline-block;
+    list-style: none;
+    padding:10px;
+}
+
+.nav_links {
+    position:absolute;
+    left:760px;
+    font-size: x-large;
+}
+
+a {
+    color:bisque;
+    text-decoration: none;
+    
+}
+a:hover {
+    color:rgb(75, 61, 42);
+} 
+
+footer {
+    margin: 500px 0px 0px 800px;
+    font-size: 18px;
+
+}
+td {
+    padding:10px;
+}
+
+i {
+    margin: 0px 5px;
+    color: midnightblue;
+}
